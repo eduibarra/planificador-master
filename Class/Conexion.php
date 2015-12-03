@@ -5,7 +5,7 @@ class Conexion{
     const SERVER = 'localhost';
     const BASE = 'planificador';
     const USUARIO = 'root';
-    const CLAVE = '';
+    const CLAVE = 'root';
 
     static $link;
 
