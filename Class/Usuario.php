@@ -1,5 +1,5 @@
 <?php
-
+//************* ESTO ES UN COMENTARIO ******************
 
 class Usuario
 {
