@@ -3,10 +3,8 @@
 
 require 'Class/Conexion.php';
 require 'Class/Usuario.php';
-
 $usuario = new Usuario();
 $mensaje = $usuario->altaUsuario();
-
 
 	include "plantillas/cabecera.php"
 ?>
