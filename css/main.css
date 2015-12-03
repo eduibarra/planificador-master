@@ -1,0 +1,42 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.centrado {
+   text-align: center;
+}
+
+#footer-main {
+
+   background-image:url(../img/top-bg.png);
+   bottom: 0;
+   clear: both;
+   color: #000;
+   height: 50px;
+   left: 0;
+   position: relative;
+   text-align: center;
+   width: 100%;
+
+}
+
+/*#wrapper {*/
+   /*min-height: 100%;*/
+   /*position: relative;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

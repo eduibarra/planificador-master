@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - planificador@localhost" uuid="beaa1586-7751-472b-80f3-cc3bd6ad63cc">
+    <database-info product="MySQL" version="5.6.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.2">
+      <schema id="1" name="planificador"/>
+      <table id="2" parent="1" name="tarea"/>
+      <table id="3" parent="1" name="usuarios"/>
+      <column id="4" parent="2" name="tra_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="5" parent="2" name="tra_titulo">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="6" parent="2" name="tra_descripcion">
+        <mandatory>1</mandatory>
+        <data-type>varchar(500)</data-type>
+      </column>
+      <column id="7" parent="2" name="tra_fecha">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="8" parent="2" name="tra_fecha_fin">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="9" parent="2" name="tra_estado">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="10" parent="2" name="usr_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="11" parent="2" name="tra_compartida">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <key id="12" parent="2" name="PRIMARY">
+        <columns>tra_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="13" parent="3" name="usr_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="14" parent="3" name="usr_nombre">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="15" parent="3" name="usr_apellido">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="16" parent="3" name="usr_email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="17" parent="3" name="usr_pass">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="18" parent="3" name="PRIMARY">
+        <columns>usr_id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
