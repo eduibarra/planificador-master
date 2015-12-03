@@ -9,6 +9,7 @@ class Usuario
     private $usr_email;
     private $usr_pass;
 
+    //********* Metodo para la alta de usuarios ***********************
     public function altaUsuario(){
 
 //        $usr_id = $_POST['usr_id'];
