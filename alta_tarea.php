@@ -3,7 +3,7 @@
 require "Class/Conexion.php";
 require "Class/Planificador.php";
 
-$titulo = "Panel de Alta de una nueva Tarea";
+$titulo = "Panel de Alta de una nueva  ";
 
 $tarea = new Planificador();
 $mensaje = $tarea->crearTarea();
