@@ -8,6 +8,7 @@ $titulo = "Panel de Alta de una nueva Tarea";
 $tarea = new Planificador();
 $mensaje = $tarea->crearTarea();
 ?>
+
 <?php
 include 'plantillas/cabecera.php';
 ?>
