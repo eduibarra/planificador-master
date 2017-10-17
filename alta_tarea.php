@@ -13,10 +13,7 @@ $mensaje = $tarea->crearTarea();
 include 'plantillas/cabecera.php';
 ?>
 <div class="container">
-
     <h1><?php echo $titulo; ?></h1>
-
         <h1 class="centrado"><?php echo $mensaje; header("refresh:2; url=index.php");?></h1>
-
 </div>
 <?php include 'plantillas/pie.php'; ?>
