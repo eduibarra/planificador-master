@@ -1,5 +1,5 @@
 <?php 
-$titulo = "Modificacion de una tarea";
+$titulo="Modificacion de una tarea";
 require 'Class/Conexion.php';
 require 'Class/Planificador.php';
 
